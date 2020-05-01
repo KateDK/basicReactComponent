@@ -5,7 +5,6 @@ class Hello extends React.Component{
         <h1>Hello World from React Component</h1>
         <p>Im a paragraph inside the component</p>
 				<h2>Hello there!</h2>
-				<h3>Hello there!</h3>
 			</div>
 		);
   }
