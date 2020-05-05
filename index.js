@@ -1,6 +1,5 @@
 const todaysLuckyNumber = () =>{
-  const nums = [1,2,3,4,5,6,7,8,9,10];
-  return nums[Math.floor(Math.random() * nums.length)];
+  return Math.floor(Math.random() * 10) +1;
 };
 
 const Hello = ()=>{
