@@ -1,9 +1,5 @@
-const todaysLuckyNumber = () =>{
-  return Math.floor(Math.random() * 10) +1;
-};
 
 const Hello = ()=>{
-  const num = todaysLuckyNumber();
   return (
     <div>
       <h1>Hello World from React Component</h1>

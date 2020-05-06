@@ -1,3 +1,6 @@
+const todaysLuckyNumber = () =>{
+  return Math.floor(Math.random() * 10) +1;
+};
 class App extends React.Component{
   render(){
     return (
