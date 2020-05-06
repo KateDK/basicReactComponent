@@ -1,10 +1,11 @@
 
-const Hello = ()=>{
+
+const Hello = (props)=>{
+  const {name,num}= props;
   return (
     <div>
-      <h1>Hello World from React Component</h1>
-      <h2>Today's Lucky Number is: {num}</h2>
-      <p>{num === 7 ? "Wow, number seven extra lucky!" : "Looks like a good number, but I wouldn't bet on it!"}</p>
+      <h1>{name}'s Lucky Number for today is: {num}</h1>
+      <p>{num === 7 ? `Wow ${name}, number seven extra lucky!` : `Looks like a good number ${name}, but I wouldn't bet on it!`}</p>
   </div>
   );
 };
